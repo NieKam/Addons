@@ -1,0 +1,9 @@
+ body {
+	position: relative;
+	text-align: center;
+	background-color: #dbd7cc;
+ }
+ img {
+	border: 5px solid #98968e;
+	margin: 10px 10px 10px 10px;
+}

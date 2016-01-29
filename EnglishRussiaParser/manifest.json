@@ -1,0 +1,20 @@
+{
+   "manifest_version":2,
+   "name":"English-Russia parser",
+   "description":"This extension parse subpage of englishrussia.com webpage and displays all images on one page",
+   "version":"1.0",
+   "icons":{
+      "128":"assets/launcher_128.png",
+      "16":"assets/launcher_16.png",
+      "48":"assets/launcher_48.png"
+   },
+   "background": {
+    "scripts": ["scripts/main.js"]
+  },
+   "permissions":[
+      "tabs",
+	  "contextMenus",
+      "http://englishrussia.com/"
+   ],
+   "content_security_policy": "script-src 'self' https://ajax.googleapis.com; object-src 'self'"
+}
