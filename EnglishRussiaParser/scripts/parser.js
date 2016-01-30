@@ -2,13 +2,16 @@ var RESULTS_PAGE_ID = "results-page",
     PICS_CLASS = "post_pic",
     LINKS_CLASS = "page-link",
     BR = "<br />",
-    GET = "GET";
+    GET = "GET",
+    wasUsed = false,
+	TITLE_DIV = "entry-title";
 
-chrome.runtime.onMessage.addListener(function(message, sender, sendResponse) {
-	var index = message.indexOf("#more");
-	if (index > 0) {
-		message = message.substring(0, index);
-	}
+function start(message) {
+    var index = message.indexOf("#more");
+    if (index > 0) {
+        message = message.substring(0, index);
+    }
+	
     loadPage(message, function() {
         if (this.readyState == 4) {
             if (this.status == 200 &&
@@ -17,10 +20,9 @@ chrome.runtime.onMessage.addListener(function(message, sender, sendResponse) {
             } else {
                 alert("Something went wrong");
             }
-
         }
     });
-});
+}
 
 function loadPage(url, callback) {
     var xhr = new XMLHttpRequest();
@@ -30,9 +32,15 @@ function loadPage(url, callback) {
 }
 
 function parse(webPage, url) {
-    var subPages = $(webPage).find('.' + LINKS_CLASS).children();
-    var step = Math.floor(100 / subPages.length);
-    var resultsPage = $("#" + RESULTS_PAGE_ID);
+    var subPages = $(webPage).find('.' + LINKS_CLASS).children(),
+        resultsPage = $("." + RESULTS_PAGE_ID),
+		title = $(webPage).find('.' + TITLE_DIV).children("img").attr("alt");
+	if (!title) {
+		title = url;
+	}
+	
+	$("#loading-text").text(title);
+
     for (var i = 1; i <= subPages.length + 1; i++) {
         var newUrl = url + i + "/"
         getImgs(newUrl);
@@ -48,10 +56,8 @@ function getImgs(url) {
             } else {
                 console.log("Cannot get images from page");
             }
-
         }
     });
-
 }
 
 function addToResultsPage(imgs) {

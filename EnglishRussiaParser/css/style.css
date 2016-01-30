@@ -1,9 +1,15 @@
  body {
-	position: relative;
-	text-align: center;
-	background-color: #dbd7cc;
+     position: relative;
+     text-align: center;
+     background-color: #dbd7cc;
  }
  img {
-	border: 5px solid #98968e;
-	margin: 10px 10px 10px 10px;
-}
+     border: 5px solid #98968e;
+     margin: 10px 10px 10px 10px;
+ }
+ #loading-text {
+	 margin: 50px auto;
+     font-size: 30px;
+     color: #565658;
+     font-family: "Trebuchet MS";
+ }
