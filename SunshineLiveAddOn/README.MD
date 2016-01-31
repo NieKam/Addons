@@ -2,7 +2,7 @@
 
 # About
 
-"Sunshine Live" Kodi music addon stream online music from great radio Sunshine Live. 
+"Sunshine Live" it's non official Kodi music addon. It streams online music from great radio "Sunshine Live"
 
 # Screenshots
 ![Menu](screenshots/icon.png)
