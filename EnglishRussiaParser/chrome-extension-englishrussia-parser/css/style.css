@@ -2,14 +2,23 @@
      position: relative;
      text-align: center;
      background-color: #dbd7cc;
+	 color: #565658;
+     font-family: "Trebuchet MS";
  }
  img {
      border: 5px solid #98968e;
      margin: 10px 10px 10px 10px;
  }
+ #article-desc {
+	font-size: 15px;
+ }
+ 
  #loading-text {
 	 margin: 50px auto;
      font-size: 30px;
-     color: #565658;
-     font-family: "Trebuchet MS";
  }
+ 
+ #loading-text a:link, #loading-text a:visited {
+	 color: #565658;
+ }
+ 

@@ -4,7 +4,8 @@ var RESULTS_PAGE_ID = "results-page",
     BR = "<br />",
     GET = "GET",
     wasUsed = false,
-	TITLE_DIV = "entry-title";
+	TITLE_DIV = "entry-title",
+	DESC_DIV = "post_pic_p";
 
 function start(message) {
     var index = message.indexOf("#more");
@@ -34,12 +35,15 @@ function loadPage(url, callback) {
 function parse(webPage, url) {
     var subPages = $(webPage).find('.' + LINKS_CLASS).children(),
         resultsPage = $("." + RESULTS_PAGE_ID),
-		title = $(webPage).find('.' + TITLE_DIV).children("img").attr("alt");
+		title = $(webPage).find('.' + TITLE_DIV).children("img").attr("alt"),
+		description = $(webPage).find('.' + DESC_DIV).text();
 	if (!title) {
 		title = url;
 	}
 	
-	$("#loading-text").text(title);
+	$("#article-desc").text(description);
+	
+	$("#loading-text").text("").append($("<a/>").attr("href", url).text(title));
 
     for (var i = 1; i <= subPages.length + 1; i++) {
         var newUrl = url + i + "/"

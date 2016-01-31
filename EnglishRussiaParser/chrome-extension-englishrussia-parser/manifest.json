@@ -1,7 +1,8 @@
 {
    "manifest_version":2,
    "name":"English-Russia parser",
-   "description":"This extension parse subpage of englishrussia.com webpage and displays all images on one page",
+   "description":"This extension parse article on englishrussia.com webpage and displays all images at one page",
+   "homepage_url": "https://github.com/NieKam/Addons/tree/master/EnglishRussiaParser",
    "version":"1.0",
    "icons":{
       "128":"assets/launcher_128.png",
