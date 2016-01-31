@@ -1,17 +1,17 @@
 # English Russia Chrome extension
 
-Parse articles subpages on englishrussia.com and display all images combined into one page.
+Parse article subpages on englishrussia.com and displays on the new tab all images combined into one page.
 
 # Usage
 
 1. Install from Chrome store
 
-2. Open englishrussia.com page and right click on article (title or image) and choose "Show images from this article"
+2. Open englishrussia.com page and right click on the article (title or image) and choose "Show images from this article"
 (This menu item is visible only on englishrussia page)
 ![Menu](screenshots/menu.png)
 
 3. All images are located on the new tab
-
+![Page](screenshots/parsed_page.png)
 # License
 ```
 The MIT License (MIT)
