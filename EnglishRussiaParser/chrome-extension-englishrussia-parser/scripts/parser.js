@@ -56,7 +56,11 @@ function getImgs(url) {
         if (this.readyState == 4) {
             if (this.status == 200 &&
                 this.responseText != null) {
-                addToResultsPage($(this.responseText).find('.' + PICS_CLASS));
+				var imagesArray = $(this.responseText).find('.' + PICS_CLASS);
+				if (imagesArray.length == 0) {
+					imagesArray = $(this.responseText).find('img.size-Normalpost');
+				}
+                addToResultsPage(imagesArray);
             } else {
                 console.log("Cannot get images from page");
             }
