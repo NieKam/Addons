@@ -5,7 +5,7 @@ var SCRIPT_NAME = 'scripts/parser.js',
 chrome.contextMenus.onClicked.addListener(onLinkClick);
 chrome.contextMenus.create({
     'title': 'Show images from this page',
-    "documentUrlPatterns": ["http://englishrussia.com/", "http://englishrussia.com/page/*"],
+    "documentUrlPatterns": ["http://englishrussia.com/", "http://englishrussia.com/page/*", "http://englishrussia.com/category/*"],
     'contexts': ['link']
 });
 

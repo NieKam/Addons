@@ -41,8 +41,8 @@ function parse(webPage, url) {
 		title = url;
 	}
 	
+	document.title = title;
 	$("#article-desc").text(description);
-	
 	$("#loading-text").text("").append($("<a/>").attr("href", url).text(title));
 
     for (var i = 1; i <= subPages.length + 1; i++) {
