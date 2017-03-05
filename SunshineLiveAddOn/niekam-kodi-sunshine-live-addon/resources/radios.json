@@ -3,94 +3,94 @@
       {
          "name":"Sunshine live",
          "url":"http://stream.sunshine-live.de/live/mp3-192/Webradio-Player/",
-         "thumbnail":"sunshinelive",
+         "thumbnail":"cache/com_image_stream_list_4c383743a611a214173ab53830b617ac/sunshine_live_channelgrafik_sunshine_live_fg_v3.jpg",
          "metadata":"studio"
       },
       {
          "name":"House",
          "url":"http://stream.sunshine-live.de/house/mp3-192/Webradio-Player/",
-         "thumbnail":"house",
+         "thumbnail":"cache/com_image_stream_list_4c383743a611a214173ab53830b617ac/sunshine_live_channelgrafik_house_fg_v2.jpg",
          "metadata":"house"
       },
       {
          "name":"EDM",
          "url":"http://stream.sunshine-live.de/edm/mp3-192/Webradio-Player/",
-         "thumbnail":"edm",
+         "thumbnail":"cache/com_image_stream_list_4c383743a611a214173ab53830b617ac/sunshine_live_channelgrafik_edm_fg_v2.jpg",
          "metadata":"edm"
       },
       {
          "name":"Classics",
          "url":"http://stream.sunshine-live.de/classics/mp3-192/Webradio-Player/",
-         "thumbnail":"classics",
+         "thumbnail":"cache/com_image_stream_list_4c383743a611a214173ab53830b617ac/classics.jpg",
          "metadata":"classics"
       },
       {
          "name":"Trance",
          "url":"http://stream.sunshine-live.de/trance/mp3-192/Webradio-Player/",
-         "thumbnail":"trance",
+         "thumbnail":"cache/com_image_stream_list_4c383743a611a214173ab53830b617ac/sunshine_live_channelgrafik_trance_fg_v3.jpg",
          "metadata":"trance"
       },
       {
          "name":"Hard",
          "url":"http://stream.sunshine-live.de/hard/mp3-192/Webradio-Player/",
-         "thumbnail":"hard",
+         "thumbnail":"cache/com_image_stream_list_4c383743a611a214173ab53830b617ac/sunshine_live_channelgrafik_hard_fg_v3.jpg",
          "metadata":"hard"
       },
       {
          "name":"Techno",
          "url":"http://stream.sunshine-live.de/techno/mp3-192/Webradio-Player/",
-         "thumbnail":"techno",
+         "thumbnail":"cache/com_image_stream_list_4c383743a611a214173ab53830b617ac/sunshine_live_channelgrafik_techno_fg_v3.jpg",
          "metadata":"techno"
       },
       {
          "name":"Lounge",
          "url":"http://stream.sunshine-live.de/lounge/mp3-192/Webradio-Player/",
-         "thumbnail":"lounge",
+         "thumbnail":"cache/com_image_stream_list_4c383743a611a214173ab53830b617ac/sunshine_live_channelgrafik_lounge_fg_v2.jpg",
          "metadata":"lounge"
       },
       {
          "name":"90er",
          "url":"http://stream.sunshine-live.de/90er/mp3-192/Webradio-Player/",
-         "thumbnail":"90er",
+         "thumbnail":"cache/com_image_stream_list_4c383743a611a214173ab53830b617ac/sunshine_live_channelgrafik_die_90er_fg_v2.jpg",
          "metadata":"90er"
       },
       {
          "name":"Festival",
          "url":"http://stream.sunshine-live.de/festival/mp3-192/Webradio-Player/",
-         "thumbnail":"festival",
+         "thumbnail":"cache/com_image_stream_list_4c383743a611a214173ab53830b617ac/sunshine_live_channelgrafik_festival_fg_v3.jpg",
          "metadata":"festival"
       },
       {
          "name":"HandsUp",
          "url":"http://stream.sunshine-live.de/handsup/mp3-192/Webradio-Player/",
-         "thumbnail":"handsup",
+         "thumbnail":"cache/com_image_stream_list_4c383743a611a214173ab53830b617ac/sunshine_live_channelgrafik_hands_up_fg_v1.jpg",
          "metadata":"handsup"
       },
       {
          "name":"Mayday",
          "url":"http://stream.sunshine-live.de/mayday/mp3-192/Webradio-Player/",
-         "thumbnail":"mayday",
+         "thumbnail":"cache/com_image_stream_list_4c383743a611a214173ab53830b617ac/md16_ssl.channelgrafik.png",
          "metadata":"mayday"
       },
       {
          "name":"NatureOne",
          "url":"http://stream.sunshine-live.de/natureone/mp3-192/Webradio-Player/",
-         "thumbnail":"nature",
+         "thumbnail":"cache/com_image_stream_list_4c383743a611a214173ab53830b617ac/no16_ssl.channelgrafik.png",
          "metadata":"natureone"
       },
       {
          "name":"DrumnBass",
          "url":"http://stream.sunshine-live.de/dnb/mp3-192/Webradio-Player/",
-         "thumbnail":"drumnbass2",
+         "thumbnail":"cache/com_image_stream_list_4c383743a611a214173ab53830b617ac/sunshine_live_channelgrafik_drum_n_bass_fg_v1.jpg",
          "metadata":"dnb"
       },
       {
          "name":"TimeWarp",
          "url":"http://stream.sunshine-live.de/timewarp/mp3-192/Webradio-Player/",
-         "thumbnail":"timewarp",
+         "thumbnail":"cache/com_image_stream_list_4c383743a611a214173ab53830b617ac/sunshine_live_channelgrafik_timewarp_fg_v3.jpg",
          "metadata":"timewarp"
       }
    ],
-   "metadata_url":"http://metadata.sunshine-live.de/api/track/current/?channel=",
-   "thumbnail_url":"http://radio.sunshine-live.de/img/"
+   "metadata_url":"http://www.sunshine-live.de/index.php?option=com_playhistory&task=current.track&format=json&stream=",
+   "thumbnail_url":"http://www.sunshine-live.de/"
 }

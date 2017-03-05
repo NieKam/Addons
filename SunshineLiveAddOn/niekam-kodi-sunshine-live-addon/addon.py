@@ -19,7 +19,7 @@ def build_url(query):
     return base_url + '?' + urllib.urlencode(query)
 
 def get_thumbnail_url(base, thumbnail):
-    return base + thumbnail + ".jpg"
+    return base + thumbnail
 
 def get_metadata(url):
     info = {}
