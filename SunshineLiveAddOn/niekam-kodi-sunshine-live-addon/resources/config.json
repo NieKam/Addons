@@ -1,10 +1,22 @@
 {
-   "songs":[
+   "stations":[
       {
          "name":"Sunshine live",
          "url":"http://stream.sunshine-live.de/live/mp3-192/Webradio-Player/",
          "thumbnail":"cache/com_image_stream_list_4c383743a611a214173ab53830b617ac/sunshine_live_channelgrafik_sunshine_live_fg_v3.jpg",
          "metadata":"studio"
+      },
+      {
+         "name":"Summer Beats",
+         "url":"http://stream.sunshine-live.de/sp2/mp3-192/Webradio-Player/",
+         "thumbnail":"/cache/com_image_stream_list_4c383743a611a214173ab53830b617ac/summer_stream_web2.jpg",
+         "metadata":"sunsl_ufzqlb19w_cjdx"
+      },
+      {
+         "name":"90s Anthems",
+         "url":"http://stream.sunshine-live.de/sp5/mp3-192/Webradio-Player/",
+         "thumbnail":"/cache/com_image_stream_list_4c383743a611a214173ab53830b617ac/unbenannt-1.jpg",
+         "metadata":"sunsl_y4ugfsfhy_vp2d"
       },
       {
          "name":"House",
@@ -91,6 +103,6 @@
          "metadata":"timewarp"
       }
    ],
-   "metadata_url":"http://www.sunshine-live.de/index.php?option=com_playhistory&task=current.track&format=json&stream=",
-   "thumbnail_url":"http://www.sunshine-live.de/"
+   "metadata_base_url":"http://www.sunshine-live.de/index.php?option=com_playhistory&task=current.track&format=json&stream=",
+   "thumbnail_base_url":"http://www.sunshine-live.de/"
 }
